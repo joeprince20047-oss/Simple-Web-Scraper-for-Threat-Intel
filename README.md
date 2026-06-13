@@ -1,6 +1,9 @@
 # Simple Web Scraper for Threat Intelligence
 Automated Indicator of Compromise (IOC) collector from public threat intelligence feeds (e.g. abuse.ch, URLhaus, Feodo Tracker, SSL Blacklist).
 
+## OFFICIAL INTERNID
+INTERNID : `CITS3854`
+
 ## Project Architecture
 This lightweight modular python application executes an automated feed scraping pipeline:
 1. **Fetch**: Uses `requests` with exponential backoff and localized `User-Agent` configs.
@@ -62,3 +65,5 @@ jobs:
           github_token: ${{"$"}}{{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
 ```
+## ORGANIZATION
+ Codtech IT Solutions Private Limited live at:`codtechitsolutions.com`
